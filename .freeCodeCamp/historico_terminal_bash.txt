@@ -1,0 +1,26 @@
+    1  echo hello SQL
+    2  psql -U postgres < student.sql
+    3  psql -U postgres < students.sql
+    4  ls
+    5  touch student_info.sh
+    6  chmod +x student_info.sh
+    7  ./student_info.sh
+    8  ./student_info.sh
+    9  ./student_info.sh
+   10  ./student_info.sh
+   11  ./student_info.sh
+   12  ./student_info.sh
+   13* ./student_info.sh 
+   14  ./student_info.sh
+   15  ./student_info.sh
+   16  ./student_info.sh
+   17  ./student_info.sh
+   18  ./student_info.sh
+   19  ./student_info.sh
+   20  ./student_info.sh
+   21  ./student_info.sh
+   22  ./student_info.sh
+   23  ./student_info.sh
+   24  pg_dump -U postgres students > students_dump.sql
+   25  pg_dump -U postgres students_info.sh > students_info_dump.sql
+   26  history > historico_terminal_bash.txt
